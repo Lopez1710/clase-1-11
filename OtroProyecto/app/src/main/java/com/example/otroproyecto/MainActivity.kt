@@ -1,6 +1,10 @@
 package com.example.otroproyecto
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
@@ -44,4 +48,37 @@ class MainActivity : AppCompatActivity() {
         )
         medidorTabla.attach()
     }
+
+  //  override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+  //      menuInflater.inflate(R.menu.appbarmenu,menu)
+        //return super.onCreateOptionsMenu(menu)
+    //    return true
+   // }
+
+   //override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //return super.onOptionsItemSelected(item)
+       // when(item.itemId){
+        //    R.id.miContactos -> {
+         //       Toast.makeText(this,"has seleccionado contactos", Toast.LENGTH_SHORT).show()
+          //  }
+         //   R.id.miFavorito -> {
+         //       Toast.makeText(this,"has seleccionado favorito", Toast.LENGTH_SHORT).show()
+        //    }
+         //   R.id.configuracion -> {
+         //       Toast.makeText(this,"has seleccionado configuracion", Toast.LENGTH_SHORT).show()
+         ///   }
+          //  R.id.miNActividad -> {
+         //       //Toast.makeText(this,"has seleccionado nueva actividad",Toast.LENGTH_SHORT).show()
+          //      val ventana = Intent(applicationContext,ScrollViewApp::class.java)
+          //      startActivity(ventana)
+         //   }
+         //   R.id.miCerrar -> {
+         //       finish()
+         //   }
+
+      //  }
+       // return true
+   // }
+
+
 }
